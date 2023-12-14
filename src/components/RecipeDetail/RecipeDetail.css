@@ -1,0 +1,70 @@
+.detail-container {
+    height: 100vh;
+    width: 100%;
+    padding: 50px 100px 0;
+}
+.detail-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 30px;
+}
+.detail-img {
+    width: calc(100% / 2);
+}
+.prev-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 3px 5px;
+    font-size: 17px;
+    background-color: #e8ad34;
+    color: #000;
+    font-family: 'Courgette', cursive;  
+}
+.detail-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.detail-content {
+    /* background-color: red; */
+    width: 50%;
+}
+.detail-name {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.detail-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.ingredients {
+    width: 100%;
+}
+.ingredients p {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 3px;
+    font-weight: 500;
+    font-family: 'Courgette', cursive;  
+}
+.tutorial {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.tutorial span {
+    color: red;
+    font-size: 35px;
+}   
+.tutorial p {
+    font-size: 20px;
+    color: #000;
+}
